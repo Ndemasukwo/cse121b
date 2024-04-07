@@ -1,0 +1,182 @@
+[
+    {
+        "num": 1,
+        "name": "Abia",
+        "flag": "Abia.svg.gif"
+    },
+    {
+        "num": 2,
+        "name": "Abuja",
+        "flag": "Abuja.svg.png"
+    },
+    {
+        "num": 3,
+        "name": "Adamawa",
+        "flag": "Adamawa.svg.png"
+    },
+    {
+        "num": 4,
+        "name": "Akwa_Ibom",
+        "flag": "Akwa_Ibom.svg.png"
+    },
+    {
+        "num": 5,
+        "name": "Bayelsa",
+        "flag": "Bayelsa.svg.png"
+    },
+    {
+        "num": 6,
+        "name": "Benue",
+        "flag": "Benue.svg.png"
+    },
+    {
+        "num": 7,
+        "name": "Borno",
+        "flag": "Borno.svg.gif"
+    },
+    {
+        "num": 8,
+        "name": "Cross_River",
+        "flag": "Cross_River.svg.png"
+    },
+    {
+        "num": 9,
+        "name": "Ogun",
+        "flag": "Ogun.svg.webp"
+    },
+    {
+        "num": 10,
+        "name": "Delta",
+        "flag": "Delta.svg.gif"
+    },
+    {
+        "num": 11,
+        "name": "Ebonyi",
+        "flag": "Ebonyi.svg.png"
+    },
+    {
+        "num": 12,
+        "name": "Edo",
+        "flag": "Edo.svg.png"
+    },
+    {
+        "num": 13,
+        "name": "Ekiti",
+        "flag": "Ekiti.svg.webp"
+    },
+    {
+        "num": 14,
+        "name": "Enugu",
+        "flag": "Enugu.svg.png"
+    },
+    {
+        "num": 15,
+        "name": "Gombe",
+        "flag": "Gombe.svg.png"
+    },
+    {
+        "num": 16,
+        "name": "Imo",
+        "flag": "Imo.svg.png"
+    },
+    {
+        "num": 17,
+        "name": "Taraba",
+        "flag": "Taraba.svg.jpg"
+    },
+    {
+        "num": 18,
+        "name": "Jigawa",
+        "flag": "Jigawa.svg.png"
+    },
+    {
+        "num": 19,
+        "name": "Kaduna",
+        "flag": "Kaduna.svg.webp"
+    },
+    {
+        "num": 20,
+        "name": "Kano",
+        "flag": "kano.svg.webp"
+    },
+    {
+        "num": 21,
+        "name": "Kogi",
+        "flag": "Kogi.svg.png"
+    },
+    {
+        "num": 22,
+        "name": "Kwara",
+        "flag": "Kwara.svg.jpg"
+    },
+    {
+        "num": 23,
+        "name": "Bauchi",
+        "flag": "Bauchi.svg.png"
+    },
+    {
+        "num": 24,
+        "name": "Lagos",
+        "flag": "Lagos.svg.gif"
+    },
+    {
+        "num": 25,
+        "name": "Nasarawa",
+        "flag": "Nasarawa.svg.png"
+    },
+    {
+        "num": 26,
+        "name": "Niger",
+        "flag": "Niger.svg.png"
+    },
+    {
+        "num": 27,
+        "name": "Ondo",
+        "flag": "Ondo.svg.jpg"
+    },
+    {
+        "num": 28,
+        "name": "Kebbi",
+        "flag": "Kebbi.svg.jpg"
+    },
+    {
+        "num": 29,
+        "name": "Osun",
+        "flag": "Osun.svg.png"
+    },
+    {
+        "num": 30,
+        "name": "Oyo",
+        "flag": "Oyo.svg.png"
+    },
+    {
+        "num": 31,
+        "name": "Kastina",
+        "flag": "Kastina.svg.webp"
+    },
+    {
+        "num": 32,
+        "name": "Plateau",
+        "flag": "Plateau.svg.jpg"
+    },
+    {
+        "num": 33,
+        "name": "Rivers",
+        "flag": "Rivers.svg.png"
+    },
+    {
+        "num": 34,
+        "name": "Sokoto",
+        "flag": "Sokoto.svg.png"
+    },
+    {
+        "num": 35,
+        "name": "Yobe",
+        "flag": "Yobe.svg.png"
+    },
+    {
+        "num": 36,
+        "name": "Zamfara",
+        "flag": "Zamfara.svg.png"
+    }
+]

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>State Flags</title>
+    <meta name="description" content="Geography Game" />
+    <meta name="author" content="Ndem Emmanuel Asukwo" />
+    <link
+      type="text/plain"
+      rel="author"
+      href="https://github.com/ndemasukwo/"
+    />
+    <meta name="contact" content="Ndem Emmanuel" />
+    <meta name="creation-date" content="2/04/2024" />
+    <meta name="version" content="0.1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+
+    <meta name="theme-color" content="#fafafa" />
+    <style>
+      body {
+        background-color: #f7fafc;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        color: #333;
+      }
+      .bg-primary {
+        background-color: #4299e1;
+      }
+      .text-primary {
+        color: #4299e1;
+      }
+      .bg-success {
+        background-color: #48bb78;
+      }
+      .text-success {
+        color: #48bb78;
+      }
+      .bg-danger {
+        background-color: #f56565;
+      }
+      .text-danger {
+        color: #f56565;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="fixed w-full z-20 top-0">
+      <nav class="bg-primary px-2 py-6 left-0 border-b border-primary">
+        <div class="container flex flex-row items-center justify-center mx-auto gap-x-4">
+          <img src="img/Nigeria-flag.png.avif" alt="Nigeria-flag" class="h-12 rounded" />
+          <h1 class="self-center text-3xl font-semibold whitespace-nowrap text-white">
+            Welcome to Flag Master
+           <p>Explore Nigeria state flags and test your knowledge!</p>
+          </h1>
+          <img src="img/Nigeria-flag.png.avif" alt="Nigeria-flag" class="h-12 rounded" />
+        </div>
+      </nav>
+
+      <section>
+        <div class="bg-white flex flex-col container mx-auto pt-4">
+          <div class="flex flex-row gap-4 max-w-screen-xl px-4 pb-8 mx-auto items-center">
+            <div role="alert">
+              <div class="bg-success text-xl text-white font-bold rounded-t px-4 py-2 text-center">
+               
+              RIGHT
+              </div>
+              <div id="correctScore" class="border border-t-0 text-xl text-center font-bold border-success rounded-b bg-success-light px-4 py-3 text-success"></div>
+              </div>
+              <div role="alert">
+              <div class="bg-danger text-xl text-white font-bold rounded-t px-4 py-2 text-center">
+              WRONG
+              </div>
+              <div id="incorrectScore" class="border text-xl text-center font-bold border-t-0 border-danger rounded-b bg-danger-light px-4 py-3 text-danger"></div>
+              </div>
+              <div class="col-span-3 bg-primary-light text-primary px-4 py-3">
+                <div id="questionBox" class="flex flex-row content-center">
+                  <p class="text-2xl font-semibold">Find State Flag for:</p>
+                  <span id="questionText" class="text-2xl font-semibold pl-4"></span>
+                </div>
+              </div>
+              <button id="startGame" class="bg-success hover:bg-success-dark text-white font-bold py-2 px-4 border border-success rounded">Restart Game</button>
+            </div>
+          </div>
+        </section>
+      </header>
+      
+      <section>
+        <div id="flags" class="container px-4 py-8 pt-64 mx-auto grid grid-cols-5 gap-4 justify-center"></div>
+      </section>
+      <footer class="bg-gray-200 text-gray-700">
+        <div class="container mx-auto py-4 px-8">
+          <p class="text-center text-sm">© 2024 Ndem Emmanuel Asukwo. cse121b BYUI.</p>
+        </div>
+      </footer>
+      <script src="js/main.js" type="module"></script>
+    </body>
+    </html>      
